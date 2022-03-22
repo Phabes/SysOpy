@@ -1,0 +1,24 @@
+sys	       from.txt	         to.txt
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.040000	       0.000000	       0.010000
+lib	       from.txt	         to.txt
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.010000	       0.000000	       0.000000
+sys	       from.txt	         to.txt
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.030000	       0.000000	       0.010000
+lib	       from.txt	         to.txt
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
+sys	       from.txt	         to.txt
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.020000	       0.000000	       0.010000
+lib	       from.txt	         to.txt
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
+sys	       from.txt	         to.txt
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.040000	       0.000000	       0.020000
+lib	       from.txt	         to.txt
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.010000	       0.000000	       0.000000

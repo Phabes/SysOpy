@@ -1,0 +1,24 @@
+sys	a	       from.txt	         8	         5
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
+lib	a	       from.txt	         8	         5
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
+sys	z	       from.txt	         0	         0
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
+lib	z	       from.txt	         0	         0
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
+sys	x	       from.txt	         1	         1
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
+lib	x	       from.txt	         1	         1
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
+sys	A	       from.txt	         0	         0
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
+lib	A	       from.txt	         0	         0
+      REAL_TIME	      USER_TIME	    SYSTEM_TIME
+       0.000000	       0.000000	       0.000000
