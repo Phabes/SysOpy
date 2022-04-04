@@ -1,0 +1,20 @@
+Do testów zostały użyte sygnały:
+    SIGINT, SIGQUIT, SIGKILL, SIGTSTP, SIGSTOP, SIGTERM, SIGSEGV, SIGHUP, SIGALARM,
+    SIGCHLD, SIGUSR1, SIGUSR2, SIGRTMIN, SIGRTMIN+n, SIGRTMAX
+, gdzie n to liczba.
+
+Wszystkie sygnały poza SIGKILL oraz SIGSTOP mogą być ignorowane, maskowane, czy obsługiwane.
+
+----------FORK----------
+PARAMETR        FORK DZIEDZICZY:
+ignore          TAK
+handler         TAK
+mask            TAK
+pending         NIE
+
+----------EXEC----------
+PARAMETR        EXEC DZIEDZICZY:
+ignore          TAK
+mask            TAK
+pending         TAK
+
