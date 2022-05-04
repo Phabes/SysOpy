@@ -1,0 +1,3 @@
+Program działa dla wszystkich przedstawionych przypadków.
+W żadnym z nich nie dochodzi do zwielokrotnienia surowca, czy też utraty go.
+Nie zostały również dostrzeżone błędy w pliku wynikowym, gdzie każda linijka odpowiada właściwemu plikowi.
