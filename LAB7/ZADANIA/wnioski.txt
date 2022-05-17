@@ -1,0 +1,14 @@
+Dla N,M <= 5:
+Piec nigdy nie zostaje przepełniony, tak więc kucharze czekają tylko na dostęp 
+do okienka i na dostęp do stołu. Z tego powodu czas przygotowania pizzy nie 
+wydłuża się ponad to ile zajmuje to standardowo.
+Dla N,M > 5:
+Piec w większości czasu jest zapełniony. Kucharze muszą czekać na miejsce 
+w piecu, przez co cały proces trwa dłużej.
+
+Dodatkowo:
+Gdy piec jest przepełniony, to wyciągnięcie z niego pizzy nie powoduje, 
+że licznik ilości pizz się zmniejsza, gdyż automatycznie kolejny kucharz 
+kłedzie tam swoją pizzę. Z tego powodu trzeba sztucznie obniżać licznik.
+Podobnie dzieje się na stole tylko w przypadku, gdy jest pusty, gdyż 
+dostawcy mogą już czekać na pobranie pizzy ze stołu.
