@@ -1,0 +1,156 @@
+KOMENTARZ:
+Wariant 1 jest dużo wolniejszy od wariantu 2, gdyż każdy wątek przegląda i tak cały obraz, dlatego im więcej wątków 
+tym czas trwania całego programu się wydłuża. W wariancie 2, jako że każdy wątek odpowiada za jakąś część obrazu, 
+to czas trwania przy większej liczbie wątków jest znacznie mniejszy od tego co przy tych samych danych otrzymamy 
+dla wariantu 1. W wariancie 1 większa ilość wątków wiąże się z dłuższym czasem wykonania, natomiast w wariancie 2 
+niekoniecznie, wszystko zależy jak się wątki utworzą i zakończą.
+
+
+Type: numbers, Threads: 1, Width: 512, Height: 512
+Thread:   0, Time:   2219[us]
+TOTAL,   3954[us]
+
+Type: block, Threads: 1, Width: 512, Height: 512
+Thread:   0, Time:   1669[us]
+TOTAL,   3204[us]
+
+Type: numbers, Threads: 2, Width: 640, Height: 480
+Thread:   0, Time:   5806[us]
+Thread:   1, Time:   3363[us]
+TOTAL,  11037[us]
+
+Type: block, Threads: 2, Width: 640, Height: 480
+Thread:   0, Time:   1085[us]
+Thread:   1, Time:   1356[us]
+TOTAL,   4016[us]
+
+Type: numbers, Threads: 4, Width: 640, Height: 480
+Thread:   0, Time:  17765[us]
+Thread:   1, Time:  25228[us]
+Thread:   2, Time:  13748[us]
+Thread:   3, Time:  30152[us]
+TOTAL,  39737[us]
+
+Type: block, Threads: 4, Width: 640, Height: 480
+Thread:   0, Time:    572[us]
+Thread:   1, Time:    515[us]
+Thread:   2, Time:    731[us]
+Thread:   3, Time:   1104[us]
+TOTAL,   5311[us]
+
+Type: numbers, Threads: 8, Width: 256, Height: 256
+Thread:   0, Time:  25415[us]
+Thread:   1, Time:   1163[us]
+Thread:   2, Time:   7370[us]
+Thread:   3, Time:   1287[us]
+Thread:   4, Time:   1250[us]
+Thread:   5, Time:   1915[us]
+Thread:   6, Time:  27254[us]
+Thread:   7, Time:  18377[us]
+TOTAL,  44910[us]
+
+Type: block, Threads: 8, Width: 256, Height: 256
+Thread:   0, Time:     60[us]
+Thread:   1, Time:     59[us]
+Thread:   2, Time:     60[us]
+Thread:   3, Time:     61[us]
+Thread:   4, Time:     66[us]
+Thread:   5, Time:     68[us]
+Thread:   6, Time:     67[us]
+Thread:   7, Time:     62[us]
+TOTAL,   5328[us]
+
+Type: numbers, Threads: 16, Width: 640, Height: 480
+Thread:   0, Time:  56169[us]
+Thread:   1, Time:  46054[us]
+Thread:   2, Time:  70279[us]
+Thread:   3, Time:  88736[us]
+Thread:   4, Time: 130137[us]
+Thread:   5, Time: 159728[us]
+Thread:   6, Time: 114037[us]
+Thread:   7, Time: 110094[us]
+Thread:   8, Time: 102860[us]
+Thread:   9, Time:  90615[us]
+Thread:  10, Time: 147150[us]
+Thread:  11, Time: 114184[us]
+Thread:  12, Time: 137094[us]
+Thread:  13, Time: 138298[us]
+Thread:  14, Time: 118687[us]
+Thread:  15, Time: 116667[us]
+TOTAL, 176531[us]
+
+Type: block, Threads: 16, Width: 640, Height: 480
+Thread:   0, Time:    181[us]
+Thread:   1, Time:    146[us]
+Thread:   2, Time:    148[us]
+Thread:   3, Time:    153[us]
+Thread:   4, Time:    157[us]
+Thread:   5, Time:    188[us]
+Thread:   6, Time:    153[us]
+Thread:   7, Time:    159[us]
+Thread:   8, Time:    800[us]
+Thread:   9, Time:    156[us]
+Thread:  10, Time:    139[us]
+Thread:  11, Time:    140[us]
+Thread:  12, Time:    161[us]
+Thread:  13, Time:    162[us]
+Thread:  14, Time:    138[us]
+Thread:  15, Time:    135[us]
+TOTAL,   9481[us]
+
+Type: numbers, Threads: 25, Width: 250, Height: 360
+Thread:   0, Time:   1585[us]
+Thread:   1, Time:   1466[us]
+Thread:   2, Time:  42096[us]
+Thread:   3, Time:   2032[us]
+Thread:   4, Time:   1571[us]
+Thread:   5, Time:   1560[us]
+Thread:   6, Time:   6711[us]
+Thread:   7, Time:   1551[us]
+Thread:   8, Time:   1654[us]
+Thread:   9, Time:   4254[us]
+Thread:  10, Time:   8727[us]
+Thread:  11, Time:   6765[us]
+Thread:  12, Time:   1555[us]
+Thread:  13, Time:  55108[us]
+Thread:  14, Time:  23653[us]
+Thread:  15, Time:  30140[us]
+Thread:  16, Time:  26636[us]
+Thread:  17, Time:  10850[us]
+Thread:  18, Time:  30200[us]
+Thread:  19, Time:   1274[us]
+Thread:  20, Time:  24269[us]
+Thread:  21, Time:   1609[us]
+Thread:  22, Time:  28272[us]
+Thread:  23, Time:  16737[us]
+Thread:  24, Time:  27921[us]
+TOTAL, 105297[us]
+
+Type: block, Threads: 25, Width: 250, Height: 360
+Thread:   0, Time:     67[us]
+Thread:   1, Time:     48[us]
+Thread:   2, Time:     45[us]
+Thread:   3, Time:     59[us]
+Thread:   4, Time:     43[us]
+Thread:   5, Time:     45[us]
+Thread:   6, Time:     55[us]
+Thread:   7, Time:     72[us]
+Thread:   8, Time:     61[us]
+Thread:   9, Time:     70[us]
+Thread:  10, Time:     47[us]
+Thread:  11, Time:     78[us]
+Thread:  12, Time:     47[us]
+Thread:  13, Time:     44[us]
+Thread:  14, Time:     47[us]
+Thread:  15, Time:     52[us]
+Thread:  16, Time:     47[us]
+Thread:  17, Time:     44[us]
+Thread:  18, Time:     45[us]
+Thread:  19, Time:    113[us]
+Thread:  20, Time:     63[us]
+Thread:  21, Time:     45[us]
+Thread:  22, Time:     51[us]
+Thread:  23, Time:     44[us]
+Thread:  24, Time:     43[us]
+TOTAL,  21084[us]
+
